@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    padding:0px 100px;
+    background-color:rgb(201, 178, 224);
+}
+
+#content{
+    border:8px solid pink;
+    width:700px;
+    height:500px;
+    position:relative;
+    margin:30px auto;
+}
+#myimage{
+    width:700px;
+    height:500px;
+    position:absolute;
+    left:0;
+    top:0;
+    box-sizing: border-box;
+}
+button{
+    width:350px;
+    height:40px;
+    background-color:violet;
+    color:white;
+    text-align:center;
+    font-size:25px;
+    font-weight:bold;
+    border:1px solid brown;
+    cursor:pointer;
+}
+
+p{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    
+}
+.fadeinimg{
+    animation:fadein 2s;
+}
+
+@keyframes fadein{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
